@@ -3,8 +3,9 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/nmccready/cesium-terrain-server/handlers"
 	"strconv"
+
+	"github.com/COVISART/cesium-terrain-server/handlers"
 )
 
 // Adapted from <https://golang.org/doc/effective_go.html#constants>.

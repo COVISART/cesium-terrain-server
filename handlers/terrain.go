@@ -3,11 +3,12 @@ package handlers
 import (
 	"errors"
 	"fmt"
-	"github.com/nmccready/cesium-terrain-server/assets"
-	"github.com/nmccready/cesium-terrain-server/log"
-	"github.com/nmccready/cesium-terrain-server/stores"
-	"github.com/gorilla/mux"
 	"net/http"
+
+	"github.com/COVISART/cesium-terrain-server/assets"
+	"github.com/COVISART/cesium-terrain-server/log"
+	"github.com/COVISART/cesium-terrain-server/stores"
+	"github.com/gorilla/mux"
 )
 
 // An HTTP handler which returns a terrain tile resource

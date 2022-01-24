@@ -2,10 +2,11 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/nmccready/cesium-terrain-server/log"
 	"net/http"
 	"net/url"
+
+	"github.com/COVISART/cesium-terrain-server/log"
+	"github.com/bradfitz/gomemcache/memcache"
 )
 
 type Cache struct {

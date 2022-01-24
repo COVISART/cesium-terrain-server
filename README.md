@@ -152,7 +152,7 @@ that Go does.  Assuming that you have set the
 installation is a matter of running `go install`:
 
 ```sh
-go get github.com/nmccready/cesium-terrain-server/cmd/cesium-terrain-server
+go get github.com/COVISART/cesium-terrain-server/cmd/cesium-terrain-server
 ```
 
 A program called `cesium-terrain-server` should then be available under your
@@ -190,7 +190,7 @@ project source directory is very handy for developing and testing. NOTE: for you
 ## Issues and Contributing
 
 Please report bugs or issues using the
-[GitHub issue tracker](https://github.com/nmccready/cesium-terrain-server).
+[GitHub issue tracker](https://github.com/COVISART/cesium-terrain-server).
 
 Code and documentation contributions are very welcome, either as GitHub pull
 requests or patches.
